@@ -1,0 +1,2 @@
+Na tela inicial (login.php) é onde o usuario ira se autenticar e entrar no sistema, e caso nao tenha cadastro (cadastro.php) ira se cadastrar e se autenticar apos o cadastro. 
+Ao se autenticar sera encaminhado para a pagina home da biblioteca, onde tera informacoes da biblioteca em geral e todos os livros cadastrados por todos os usuarios. Alem da home existe a pagina de livros(livros.php) onde o usuario podera manter uma lista de livros de contribuição somente dele, e o perfil do usuario onde manterar as informacoes do usuario(usuario.php)

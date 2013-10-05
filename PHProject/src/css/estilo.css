@@ -1,0 +1,214 @@
+*{margin:0px;
+padding:0px;
+}
+
+
+body {
+	font-family:Arial, Helvetica, sans-serif; /*Tipo da fonte*/
+	color:#FFF; /* cor da fonte */
+	font-size:12px; /* tamanho da fonte */
+	background-color:#999; /* cor do background */
+}
+/* Aqui se define a formatação da página toda costumo apenas formatar background, cor e tamanho da Font */
+
+.cabecalho{
+	width:980px;         /* Largura */
+	height:110px;     /* Altura */
+	margin:auto;     /* Margin deixa a div centralizada na página */
+}
+/* Aqui defino o Tamanho do topo do site  Logo Banner e Menu */
+
+.logo{
+	width:243px;
+	height:110px;
+	float:left;     /* Faz com que a DIV se ajuste sempre do lado esquerdo */
+}
+
+/* Float funciona da seguinte forma no caso o "left" ele ajusta os elementos do lado esquerdo, um ao lado do outro, quando não houver espaço suficiente para o elemento ele o joga pra baixo ainda ajustado a esquerda */
+
+.banner { 
+    width:737px;
+	height:110px;
+	float:left;
+}
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:980px;
+	position: relative;
+	display:block;
+	height:144px;
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+	background:transparent url(../img/OFF.gif) repeat-x bottom center;
+	font-family:Helvetica,Arial,Verdana,sans-serif;
+	border-bottom:4px solid #004c99;
+	border-top:1px solid #74b0c6;
+}
+.menu li{
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	}
+.menu li a{
+	display:block;
+	float:left;
+	color:#454141;
+	text-decoration:none;
+	font-weight:bold;
+	padding:12px 20px 0 20px;
+	height:24px;
+	background:transparent url(../img/DIVIDER.gif) no-repeat top right;
+	}
+.menu li a:hover{
+	background:transparent url(../img/HOVER.gif) no-repeat top right;
+	TEXT-DECORATION: underline; COLOR: #000000;
+	}
+/* Termina aqui o cabeçalho --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* conteúdo ( Meio do site site onde fica a maior parte da informação ) ------------------------------------------------------------------------------------- */
+.conteudo { 
+	width:980px;
+	height:auto;
+	background-color:#CCC;
+	color:#000;
+	margin: auto;
+	padding-top:90px;
+	padding-bottom: 90px;
+}
+
+/*.section{
+		width: 40%;
+        margin: auto;
+}*/
+.fild{
+	background-color: #eaeaea;
+	width: 40%;
+	margin: auto;
+}
+
+.style1 {
+  color: #FF0000;
+  font-size: x-small;
+}
+.style3 {
+  color: #0000FF;
+  font-size: x-small; 
+  }
+
+.legend{
+	font-style: bold;
+    font-family: "Segoe UI";
+}      
+
+.conteudo h1{
+	color:#06C;
+	padding-left:15px;
+	padding-top:10px;
+}
+
+.texto{
+	width:980px;
+	height:auto; /* O height fica com o tamanho indeterminado, ira depender do conteudo que estiver dentro, se tratando de texto é bom utilizar height auto pois os textos podem variar de tamanho */
+	float:left;
+}
+/* Termina aqui o conteúdo -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.rodape{
+	width:965px;
+	height:28px;
+	background-image:url(../img/bg-rodape.jpg);
+	background-repeat:no-repeat;
+	padding-top:70px;
+	padding-left:15px;
+	margin:auto;
+}
+.rodape p{
+	color: #d2d0dd;
+	text-align: center;
+}
+
+/*------------Aqui comeca o formulario de login----------*/
+.login {
+	border:solid 2px #1C6FBB;
+	width:350px;
+	max-height: 300px;
+	margin:auto;
+	top: 100px;
+	left: 200px;
+	background-color: #FFF;
+	
+	
+}
+
+.linha1,.linha2,.linha3,.linha4,.linha5 {
+	font:bold 12pt "Trebuchet Ms","Verdana", "Arial";
+	width:auto;
+	text-align:center;
+}
+
+.linha1 {
+	padding: 5px;
+	margin-bottom:20px;
+	font:bold 16pt "Trebuchet Ms","Verdana", "Arial";
+	color:#FFF;
+	background-color:#1C6FBB;
+}
+
+.linha2 {
+	margin-bottom:5px;
+}
+
+.linha4 {
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left: 200px;
+}
+
+.linha5 {
+		font:bold 10pt "Trebuchet Ms","Verdana", "Arial";
+		margin-bottom:10px;
+}
+
+.col1,.col2,.col3,.col4 {
+	width:auto;
+	margin:auto;
+}
+
+.col1 {
+float:left;
+width:75px;
+height:22px;
+text-align:right;
+padding-right:5px;
+color:#1C6FBB;
+}
+
+.txt,.cxOn,.cxOff {
+border:solid 1px #f60;
+}
+
+.cxOn {
+background-color:#EEFAFD;
+}
+
+.cxOff {
+background-color:#FFF;
+}
+
+
+.blue{color:#0066CC}
+.red{color:#FF0000}
+
+#resultado{
+	text-align: center;
+	padding-top: 10px;
+}
+#resultado p{
+	padding-left:35px;
+	font-size:14px;
+	text-align: center;
+}
